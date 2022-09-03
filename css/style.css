@@ -1,12 +1,16 @@
 /********** Template CSS **********/
 :root {
-    --primary: #6244C5;
+    --primary: #005478;
     --secondary: #FFC448;
     --light: #FAFAFB;
     --dark: #12141D;
 }
+.texto-padrao {
+    color: #005478;
+}
 .img-fluid{
     margin-top: 15vh;
+    height: 60vh;
 }
 .seta{
     position: absolute;
@@ -296,7 +300,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(98, 68, 197, .9);
+    background: #005478;
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
