@@ -5,12 +5,26 @@
     --light: #FAFAFB;
     --dark: #12141D;
 }
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--secondary);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--primary);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid  var(--secondary);  /* creates padding around scroll thumb */
+  }
+
 .texto-padrao {
     color: #005478;
 }
 .img-fluid{
     margin-top: 15vh;
-    height: 60vh;
+    height: 45vh;
 }
 .seta{
     position: absolute;
@@ -31,6 +45,7 @@
     bottom: 45px;
     z-index: 99;
 }
+
 
 .my-6 {
     margin-top: 6rem;
