@@ -1,8 +1,9 @@
 #Copyright{
 
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
 }
+
 :root {
     --primary: #005478;
     --secondary: #FFC448;
