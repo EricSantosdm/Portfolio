@@ -1,4 +1,8 @@
-/********** Template CSS **********/
+#Copyright{
+
+    font-size: 15px;
+    font-weight: bold;
+}
 :root {
     --primary: #005478;
     --secondary: #FFC448;
@@ -6,17 +10,17 @@
     --dark: #12141D;
 }
 body::-webkit-scrollbar {
-    width: 12px;               /* width of the entire scrollbar */
+    width: 12px;               
   }
   
   body::-webkit-scrollbar-track {
-    background: var(--secondary);        /* color of the tracking area */
+    background: var(--secondary);        
   }
   
   body::-webkit-scrollbar-thumb {
-    background-color: var(--primary);    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 3px solid  var(--secondary);  /* creates padding around scroll thumb */
+    background-color: var(--primary);   
+    border-radius: 20px;      
+    border: 3px solid  var(--secondary);  
   }
 
 .texto-padrao {
@@ -44,6 +48,11 @@ body::-webkit-scrollbar {
     right: 45px;
     bottom: 45px;
     z-index: 99;
+    background-color: var(--secondary);
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+    align-items: center;
 }
 
 
@@ -58,7 +67,7 @@ body::-webkit-scrollbar {
 }
 
 
-/*** Spinner ***/
+
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -73,7 +82,7 @@ body::-webkit-scrollbar {
 }
 
 
-/*** Button ***/
+
 .btn {
     font-weight: 500;
     transition: .5s;
@@ -277,8 +286,8 @@ body::-webkit-scrollbar {
 }
 
 
-/*** Service ***/
-.service-item .bg-icon {
+/*** abilities ***/
+.abilities-item .bg-icon {
     width: 100px;
     height: 100px;
     display: flex;
@@ -331,16 +340,16 @@ body::-webkit-scrollbar {
 }
 
 
-/*** Team ***/
-.team-item img {
+/*** projects ***/
+.projects-item img {
     transition: .5s;
 }
 
-.team-item:hover img {
+.projects-item:hover img {
     opacity: .7;
 }
 
-.team-item .team-text {
+.projects-item .projects-text {
     position: absolute;
     left: 0;
     right: 60px;
@@ -352,16 +361,16 @@ body::-webkit-scrollbar {
     transition: .5s;
 }
 
-.team-item:hover .team-text {
+.projects-item:hover .projects-text {
     right: 30px;
     opacity: 1;
 }
 
-.team-item .team-text div {
+.projects-item .projects-text div {
     transition: .5s;
 }
 
-.team-item:hover .team-text div {
+.projects-item:hover .projects-text div {
     margin-left: 30px;
 }
 
